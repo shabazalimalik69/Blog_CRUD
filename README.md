@@ -6,7 +6,7 @@ Tech Stacks Used for frontend:<br/>
 Tech Stacks Used for backend:<br/>
 (1) Node Js<br/>
 (2) Express Js<br/>
-(3) Mongo DB 
+(3) Mongo DB <br/>
 #Deployment
 -The Backend part is deployed on Render.
 -The Frontend part is deployed on Netlify
