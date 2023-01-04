@@ -6,7 +6,7 @@ import { ADD_BLOG, DELETE_ALL_BLOGS, DELETE_BLOG, EDIT_BLOGS, GET_BLOGS } from "
   export const getBlog = () => async (dispatch) => {
     try {
       const response = await axios.get(
-        `http://localhost:8000/getBlogs`
+        `https://blogbackend-bpuj.onrender.com/getBlogs`
       );
        //console.log(response.data);
       dispatch({ type: GET_BLOGS, payload: response.data});
@@ -22,7 +22,7 @@ import { ADD_BLOG, DELETE_ALL_BLOGS, DELETE_BLOG, EDIT_BLOGS, GET_BLOGS } from "
     console.log(blog)
     try {
       const response = await axios.post(
-        "http://localhost:8000/createBlog",
+        "https://blogbackend-bpuj.onrender.com/createBlog",
         {blog}
       );
        console.log(response.data)
@@ -38,7 +38,7 @@ import { ADD_BLOG, DELETE_ALL_BLOGS, DELETE_BLOG, EDIT_BLOGS, GET_BLOGS } from "
   export const updateBlog = (_id, blogData1) => async (dispatch) => {
     try {
       const response = await axios.patch(
-        "http://localhost:8000/updateBlog/"+_id,
+        "https://blogbackend-bpuj.onrender.com/updateBlog/"+_id,
         blogData1
       );
       //console.log(response);
@@ -54,7 +54,7 @@ import { ADD_BLOG, DELETE_ALL_BLOGS, DELETE_BLOG, EDIT_BLOGS, GET_BLOGS } from "
   export const deleteBlog = (_id) => async (dispatch) => {
    // console.log(_id);
     try {
-     await axios.delete("http://localhost:8000/deleteBlog/"+_id);     
+     await axios.delete("https://blogbackend-bpuj.onrender.com/deleteBlog/"+_id);     
       dispatch({ type: DELETE_BLOG });
       dispatch(getBlog(null));
     } catch (err) {
@@ -66,7 +66,7 @@ import { ADD_BLOG, DELETE_ALL_BLOGS, DELETE_BLOG, EDIT_BLOGS, GET_BLOGS } from "
 
   export const deleteAllBlogs = () => async (dispatch) => {
     try {
-      await axios.delete("http://localhost:8000/deleteAll");
+      await axios.delete("https://blogbackend-bpuj.onrender.com/deleteAll");
       // console.log(response);
       dispatch({ type: DELETE_ALL_BLOGS });
       dispatch(getBlog(null));

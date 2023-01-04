@@ -2,9 +2,7 @@ import {
   Box,
   Button,
   FormControl,
-  Heading,
   Input,
-  Spacer,
   Stack,
   Text,
 } from "@chakra-ui/react";
@@ -49,9 +47,9 @@ const Home = () => {
   };
 
   const handleCreate = () => {
-    console.log(blog)
     dispatch(createBlogAPI(blog));
-    setBlog("");
+    //window.location.reload(true);
+     setBlog("");
   };
 
   const handleEdit = (id) => {
@@ -63,7 +61,7 @@ const Home = () => {
   };
   const handleUpdate = (id) => {
     dispatch(updateBlog(id, blogData1));
-    window.location.reload(true);
+    // window.location.reload(true);
   };
   const handleAllDelete = () => {
     dispatch(deleteAllBlogs());
