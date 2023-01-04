@@ -3,7 +3,7 @@ Tech Stacks Used for frontend:<br/>
 (1) React js and Redux<br/>
 (2) For designing purpose I have used chakra UI library
 
-Tech Stacks Used for backend:<br/><br/>
+Tech Stacks Used for backend:<br/>
 (1) Node Js<br/>
 (2) Express Js<br/>
 (3) Mongo DB (Note: It was mentioned that I have to use MYSQL database, but unfortunately I don't have knowledge of this database);
