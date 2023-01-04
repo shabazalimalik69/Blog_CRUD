@@ -12,7 +12,7 @@ Tech Stacks Used for backend:
 -The Backend part is deployed on Render.
 -The Frontend part is deployed on Netlify
 
-**Backend URL: "https://blogbackend-bpuj.onrender.com";
+**Backend URL: "https://blogbackend-bpuj.onrender.com";<br/>
 **Netlify: "https://preeminent-semifreddo-577115.netlify.app/"
 
 **About:-
