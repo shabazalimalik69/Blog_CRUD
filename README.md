@@ -1,4 +1,4 @@
-# User_Management_Project
+# Blog_CRUD_Project
 Tech Stacks Used for frontend:
 (1) React js and Redux
 (2) For designing purpose I have used chakra UI library
@@ -6,16 +6,24 @@ Tech Stacks Used for frontend:
 Tech Stacks Used for backend:
 (1) Node Js
 (2) Express Js
-(3) Mongo DB (Note: It was mentioned that I have to use SQL database, but unfortunately I don't have knowledge of this database);
-(4) jwt
+(3) Mongo DB (Note: It was mentioned that I have to use MYSQL database, but unfortunately I don't have knowledge of this database);
 
 #Deployment
 -The Backend part is deployed on Render.
 -The Frontend part is deployed on Netlify
 
-**Backend URL: "https://user-management-9nnd.onrender.com";
-**Netlify: "https://fastidious-narwhal-38c0e0.netlify.app/signin"
+**Backend URL: "https://blogbackend-bpuj.onrender.com";
+**Netlify: "https://preeminent-semifreddo-577115.netlify.app/"
 
 **About:-
--This is a small project where user can create account and then login.
--After login, a user will be redirected to the homepage. where user can create, update, delete their details.
+-It is a small project, where user can create, read, update, delete their details.
+
+**Home Page<br/>
+![Screenshot (1765)](https://user-images.githubusercontent.com/103936619/210561799-27142379-4d8e-43fe-b9b3-3c16143b7bb8.png)
+
+**Create Page<br/>
+![Screenshot (1766)](https://user-images.githubusercontent.com/103936619/210562111-9dc37565-fae8-448c-bc01-384b40c38dab.png)
+
+**Update & Delete Page<br/>
+![Screenshot (1767)](https://user-images.githubusercontent.com/103936619/210562201-e4b44fbb-6d4b-4649-8549-4a4ee694c46e.png)
+
