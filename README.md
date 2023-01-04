@@ -1,11 +1,11 @@
 # Blog_CRUD_Project
-Tech Stacks Used for frontend:
-(1) React js and Redux
+Tech Stacks Used for frontend:<br/>
+(1) React js and Redux<br/>
 (2) For designing purpose I have used chakra UI library
 
-Tech Stacks Used for backend:
-(1) Node Js
-(2) Express Js
+Tech Stacks Used for backend:<br/><br/>
+(1) Node Js<br/>
+(2) Express Js<br/>
 (3) Mongo DB (Note: It was mentioned that I have to use MYSQL database, but unfortunately I don't have knowledge of this database);
 
 #Deployment
