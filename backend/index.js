@@ -16,7 +16,7 @@ app.get("/",(req,res)=>{
     res.send("HomePage")
 });
 
-const PORT = process.env.port || 7000;
+const PORT = process.env.PORT || 7000;
 
 app.listen(PORT, async() =>{
     await ConnectDB();
